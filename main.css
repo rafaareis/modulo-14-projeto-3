@@ -1,6 +1,7 @@
 :root {
     --cor1: #e15f41;
     --cor2: #fff;
+    --cor3: #ffeae6;
     --font1: 'Bruno Ace', cursive;
     --font2: 'Pacifico', cursive;
     --font3: 'Roboto', sans-serif
@@ -25,4 +26,8 @@
 
 .navbar-brand {
     font-family: var(--font2);
+}
+
+.navbar-toggler {
+    background-color: var(--cor3);
 }
