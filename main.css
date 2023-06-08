@@ -1,0 +1,28 @@
+:root {
+    --cor1: #e15f41;
+    --cor2: #fff;
+    --font1: 'Bruno Ace', cursive;
+    --font2: 'Pacifico', cursive;
+    --font3: 'Roboto', sans-serif
+}
+
+
+.navbar {
+    background-color: var(--cor1);
+}
+
+.nav .nav-link.active {
+    background-color: var(--cor2);
+    color: var(--cor1);
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: var(--cor2);
+
+}
+
+.navbar-brand {
+    font-family: var(--font2);
+}
