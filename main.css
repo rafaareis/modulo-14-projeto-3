@@ -33,7 +33,8 @@
     background-color: var(--cor3);
 }
 
-.section-title span {
+.section-title span,
+.text-colored {
     color: var(--cor1);
 }
 
