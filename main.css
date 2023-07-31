@@ -24,10 +24,19 @@
 
 }
 
-.navbar-brand {
+.navbar-brand,
+.section-title {
     font-family: var(--font2);
 }
 
 .navbar-toggler {
+    background-color: var(--cor3);
+}
+
+.section-title span {
+    color: var(--cor1);
+}
+
+#sobre-o-restaurante {
     background-color: var(--cor3);
 }
