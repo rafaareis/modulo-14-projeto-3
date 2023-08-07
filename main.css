@@ -7,19 +7,19 @@
     --font3: 'Roboto', sans-serif
 }
 
-
 .navbar {
     background-color: var(--cor1);
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: var(--cor2);
     color: var(--cor1);
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover {
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
     color: var(--cor2);
 
 }
@@ -38,6 +38,16 @@
     color: var(--cor1);
 }
 
-#sobre-o-restaurante {
+#sobre-o-restaurante,
+#cardapio {
     background-color: var(--cor3);
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
+.nav-cardapio .nav-link:hover {
+    color:var(--cor1)
 }
