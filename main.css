@@ -43,7 +43,8 @@
     background-color: var(--cor3);
 }
 
-.nav-cardapio .nav-link.active {
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
     background-color: var(--cor1);
     color: var(--cor2);
 }
@@ -51,3 +52,13 @@
 .nav-cardapio .nav-link:hover {
     color:var(--cor1)
 }
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
